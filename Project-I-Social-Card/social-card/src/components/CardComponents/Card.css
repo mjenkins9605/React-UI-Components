@@ -1,5 +1,15 @@
 /* All styles for your Card Components live here */
-img {
+.banner {
     width: 100%;
-    height: 100%;
+    height: 300px;
+}
+
+.cardContent {
+    width: 505px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    padding-right: 20px;
+    border: 1px solid #d4d9de;
+    height: 300px;
 }

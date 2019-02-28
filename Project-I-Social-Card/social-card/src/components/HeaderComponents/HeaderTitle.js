@@ -4,8 +4,8 @@ import './Header.css';
 function HeaderTitle() {
     return (
       <div className="headTitle">
-        <h2>Lambda School</h2>
-        <h3>@LambdaSchool • 26 jan</h3>
+        <h2 className="headerTitle">Lambda School</h2>
+        <h3 className="headerDate">@LambdaSchool • 26 jan</h3>
       </div>
     );
   }
