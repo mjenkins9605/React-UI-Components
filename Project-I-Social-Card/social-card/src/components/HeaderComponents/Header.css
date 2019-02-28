@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+img {
+    border: 1px solid green;
+    width: 50px;
+}
+
+.headContent {
+    border: 1px solid lightblue;
+}
+
+.headTitle {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.headContainer {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
