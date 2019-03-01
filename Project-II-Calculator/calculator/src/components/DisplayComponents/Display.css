@@ -1,1 +1,4 @@
-
+.calcDisplay {
+    border: 2px solid red;
+    height: 120px;
+}

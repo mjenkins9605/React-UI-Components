@@ -1,0 +1,45 @@
+.rightButtons {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.divide {
+    border: 1px solid blue;
+    height: 94px;
+    width: 118px;
+    margin: 0 0 0 332px;
+    cursor: pointer;
+}
+
+.multiply {
+    border: 1px solid blue;
+    height: 94px;
+    width: 118px;
+    margin: 0 0 0 332px;
+    cursor: pointer;
+}
+
+.minus {
+    border: 1px solid blue;
+    height: 94px;
+    width: 118px;
+    margin: 0 0 0 332px;
+    cursor: pointer;
+}
+
+.add {
+    border: 1px solid blue;
+    height: 94px;
+    width: 118px;
+    margin: 0 0 0 332px;
+    cursor: pointer;
+}
+
+.equal {
+border: 1px solid blue;
+height: 94px;
+width: 118px;
+margin: 0 0 0 332px;
+cursor: pointer;
+}
