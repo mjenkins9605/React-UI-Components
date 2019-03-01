@@ -1,4 +1,7 @@
 .calcDisplay {
     border: 2px solid red;
     height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
