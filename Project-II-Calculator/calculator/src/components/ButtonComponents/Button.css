@@ -1,45 +1,41 @@
-.rightButtons {
+.buttonCont {
+    display: flex;
+}
+
+.buttonNumbers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+button {
+    font-size: 50px;
+    cursor: pointer;
+    border: 1px solid #979797;
+}
+
+.buttonSymbols {
     display: flex;
     flex-direction: column;
-    
 }
 
-.divide {
-    border: 1px solid blue;
-    height: 94px;
-    width: 118px;
-    margin: 0 0 0 332px;
-    cursor: pointer;
+.bigButtonCss {
+    width: 333px;
+    height: 95px;
+    background-color: #ffffff;
+}
+  
+.numCss {
+    width: 111px;
+    height: 95px;
+    margin: 0;
+    background-color: #ffffff;
 }
 
-.multiply {
-    border: 1px solid blue;
-    height: 94px;
-    width: 118px;
-    margin: 0 0 0 332px;
-    cursor: pointer;
-}
-
-.minus {
-    border: 1px solid blue;
-    height: 94px;
-    width: 118px;
-    margin: 0 0 0 332px;
-    cursor: pointer;
-}
-
-.add {
-    border: 1px solid blue;
-    height: 94px;
-    width: 118px;
-    margin: 0 0 0 332px;
-    cursor: pointer;
-}
-
-.equal {
-border: 1px solid blue;
-height: 94px;
-width: 118px;
-margin: 0 0 0 332px;
-cursor: pointer;
+.symbolCss {
+    width: 117px;
+    height: 95px;
+    margin: 0;
+    background-color: #A11E1E;
+    color: #ffffff;
 }

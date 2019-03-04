@@ -1,12 +1,12 @@
 import React from 'react';
 import './Display.css';
 
-function CalculatorDisplay() {
+function CalculatorDisplay(props) {
     return (
         <div className="calcDisplay">
-        <p>calc display</p>
+            <h1 className={props.displayStyle}>{props.text}</h1>
         </div>
     );
 }
 
-export default  CalculatorDisplay;
+export default CalculatorDisplay;

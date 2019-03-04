@@ -1,7 +1,13 @@
-.calcDisplay {
-    border: 2px solid red;
-    height: 120px;
-    display: flex;
+.displayCss {
+    width: 450px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 24px;
+    padding-bottom: 12px;
     align-items: center;
-    justify-content: right;
-}
+    text-align: right;
+    font-size: 74px;
+    background-color: #222222;
+    color: white;
+  }

@@ -1,19 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-function ActionButton() {
+function ActionButton(props) {
     return (
         <div className="actButton">
-            <div className="rightButtons">
-                <button className="divide">/</button>
-                <button className="multiply">*</button>
-                <button className="minus">-</button>
-                <button className="add">+</button>
-                <button className="equal">=</button>
-            </div>
-            <p>action button</p>
+            <button className={props.buttonStyle}>{props.text}</button>
         </div>
     );
-}
+} 
 
-export default ActionButton;
+export default ActionButton; 
