@@ -1,0 +1,13 @@
+.displayCss {
+    width: 450px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    align-items: center;
+    text-align: right;
+    font-size: 74px;
+    background-color: #222222;
+    color: white;
+  }
